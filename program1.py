@@ -9,11 +9,11 @@ class Solution(object):
         stack = []
     
     # Iterate through each character in the string
-    for char in s:
+        for char in s:
         # If the character is a closing bracket
-        if char in bracket_map:
+            if char in bracket_map:
             # Pop the top element from the stack if stack is not empty, otherwise set top_element to a dummy value
-            top_element = stack.pop() if stack else '#'
+                top_element = stack.pop() if stack else '#'
             # Check if the popped element matches the corresponding opening bracket
             if bracket_map[char] != top_element:
                 return False
