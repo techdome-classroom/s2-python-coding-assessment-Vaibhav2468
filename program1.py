@@ -4,7 +4,7 @@ class Solution(object):
         stack = []
     
   
-    bracket_map = {')': '(', '}': '{', ']': '['}
+        bracket_map = {')': '(', '}': '{', ']': '['}
     
 
     for char in s:
