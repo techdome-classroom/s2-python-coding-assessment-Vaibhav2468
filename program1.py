@@ -17,7 +17,7 @@ class Solution(object):
            
             top_element = stack.pop() if stack else '#'
             
-            # If the popped element does not match the expected opening bracket, return False
+            
             if bracket_map[char] != top_element:
                 return False
         else:
