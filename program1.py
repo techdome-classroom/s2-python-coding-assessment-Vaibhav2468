@@ -1,7 +1,7 @@
 class Solution(object):
     def isValid(self,s):
    
-    stack = []
+        stack = []
     
   
     bracket_map = {')': '(', '}': '{', ']': '['}
