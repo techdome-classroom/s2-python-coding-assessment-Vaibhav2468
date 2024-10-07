@@ -8,8 +8,7 @@ class Solution(object):
     
 
     for char in s:
-        if char in bracket_map:  # If it's a closing bracket
-ening bracket
+        if char in bracket_map:  
             top_element = stack.pop() if stack else '#'
             if bracket_map[char] != top_element:
                 return False
