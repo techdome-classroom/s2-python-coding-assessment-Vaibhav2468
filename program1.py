@@ -12,9 +12,9 @@ class Solution(object):
 
    
     for char in s:
-        # If the character is a closing bracket
+        
         if char in bracket_map:
-            # Pop the last opened bracket from the stack
+           
             top_element = stack.pop() if stack else '#'
             
             # If the popped element does not match the expected opening bracket, return False
