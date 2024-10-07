@@ -6,7 +6,7 @@ class Solution(object):
         """
       bracket_map = {')': '(', '}': '{', ']': '['}
     # Stack to keep track of opening brackets
-    stack = []
+        stack = []
     
     # Iterate through each character in the string
     for char in s:
