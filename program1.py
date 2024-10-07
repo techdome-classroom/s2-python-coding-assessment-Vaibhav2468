@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-      bracket_map = {')': '(', '}': '{', ']': '['}
+        bracket_map = {')': '(', '}': '{', ']': '['}
         # Stack to keep track of opening brackets
         stack = []
     
