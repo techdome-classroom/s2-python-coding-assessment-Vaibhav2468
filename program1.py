@@ -20,10 +20,6 @@ class Solution(object):
     # In the end, stack should be empty if all brackets were matched
     return not stack
 
-# Test cases
-print(isValid("()"))      # Output: True
-print(isValid("()[]{}"))  # Output: True
-print(isValid("(]"))      # Output: False
 
 
 
