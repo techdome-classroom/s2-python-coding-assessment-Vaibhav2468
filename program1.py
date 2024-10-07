@@ -17,12 +17,12 @@ class Solution(object):
             # Check if the popped element matches the corresponding opening bracket
             if bracket_map[char] != top_element:
                 return False
-        else:
+            else:
             # If it's an opening bracket, push it onto the stack
-            stack.append(char)
+                stack.append(char)
     
         # If the stack is empty, it means all the opening brackets had matching closing brackets in the correct order
-         return not stack
+            return not stack
 
 
 
