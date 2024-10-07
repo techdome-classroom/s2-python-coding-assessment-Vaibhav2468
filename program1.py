@@ -1,12 +1,12 @@
 class Solution(object):
     def isValid(self,s):
-    # Stack to keep track of opening brackets
+   
     stack = []
     
-    # HashMap to match closing and opening brackets
+  
     bracket_map = {')': '(', '}': '{', ']': '['}
     
-    # Traverse through the string
+
     for char in s:
         if char in bracket_map:  # If it's a closing bracket
             # Check if the stack is non-empty and the top of the stack is the matching opening bracket
