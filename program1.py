@@ -21,8 +21,8 @@ class Solution(object):
             # If it's an opening bracket, push it onto the stack
             stack.append(char)
     
-    # If the stack is empty, it means all the opening brackets had matching closing brackets in the correct order
-    return not stack
+        # If the stack is empty, it means all the opening brackets had matching closing brackets in the correct order
+         return not stack
 
 
 
