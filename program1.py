@@ -10,7 +10,7 @@ class Solution(object):
         ']': '['
     }
 
-    # Loop over each character in the string
+   
     for char in s:
         # If the character is a closing bracket
         if char in bracket_map:
